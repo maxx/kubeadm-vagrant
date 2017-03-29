@@ -8,5 +8,5 @@ deb http://apt.kubernetes.io/ kubernetes-xenial main
 EOF
 apt-get update
 apt-get install -y docker.io kubelet=1.5.6-00 kubectl=1.5.6-00 kubernetes-cni=0.5.1-00
-apt-get download kubectl=1.5.6-00
+apt-get download kubeadm=1.5.6-00
 dpkg --force-all -i kubeadm_1.5.6-00_amd64.deb
